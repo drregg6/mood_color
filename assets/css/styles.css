@@ -63,10 +63,11 @@ free stylez
     font-size: 24px;
     font-family: Verdana, Helvetica, Times;
     line-height: 450px;
+    
+    transition: all 1.5s;
 }
 
 input[type=text] {
-/*    border-bottom: 2px solid black;*/
     padding: 10px 25px;
     
     text-align: left;
