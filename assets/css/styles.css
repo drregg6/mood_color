@@ -76,6 +76,8 @@ input[type=text] {
     color: rgba(0,0,0,0.5);
     background: transparent;
     font-size: 20px;
+    
+    transition: all 1.5s;
 }
 
 /* --------------------------------------------------------
@@ -89,5 +91,11 @@ media queries
 @media only screen and (min-width: 480px) {
     input[type=text] {
         font-size: 32px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    input[type=text] {
+        font-size: 48px;
     }
 }

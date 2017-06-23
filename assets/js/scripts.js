@@ -1,3 +1,9 @@
+/*
+
+add a button for onclick effect, keyup isn't effective enough
+
+*/
+
 var input, container, val, randomNum, body;
 
 input = document.getElementById('input');
@@ -24,6 +30,7 @@ window.onkeyup = function(ev) {
                 
                 // to a random color from the colors array in that same object
                 body.style.backgroundColor = object.colors[randomNum];
+                input.style.color = object.fontColor;
             }
         });
     });

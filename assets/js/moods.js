@@ -19,22 +19,26 @@ var moodsArray = [
     {
         /* happy */
         moods: ['happy', 'cheerful', 'peaceful', 'delighted', 'ecstatic', 'elated', 'lively', 'jubilant', 'merry', 'thrilled', 'optimistic', 'upbeat', 'joyous', 'joyful', 'glad', 'gay', 'content', 'blissful'],
-        colors: ['yellow']
+        colors: ['#ff0', '#ff1', '#b6ff19', '#ff3', '#ecff06', '#ff5', '#f2f20d', '#ffff1f', '#ecff00', '#ffec00', '#ffd900', '#ffff85'],
+        fontColor: '#080808'
     },
     {
         /* sad */
         moods: ['sad', 'bitter', 'dismal', 'heartbroken', 'pessimistic', 'mournful', 'somber', 'sorrowful', 'distressed', 'depressed', 'blue', 'down', 'glum', 'gloomy', 'hurting', 'hurt', 'morbid', 'low', 'downcast', 'troubled', 'crappy', 'poopy'],
-        colors: ['dark blue']
+        colors: ['#000080', '#400069', '#36006c', '#000029', '#00003d', '#6d0059', '#0000a3', '#000a80', '#001380', '#001d80', '#0a0080', '#240073'],
+        fontColor: '#fff'
     },
     {
         /* neutral */
         moods: ['neutral', 'disinterested', 'inactive', 'indifferent', 'bored', 'undecided', 'calm', 'cool', 'nonchalant', 'aloof', 'bystanding', 'detached', 'easy'],
-        colors: ['grey']
+        colors: ['#707070', '#666666', '#5c5c5c', '#474747', '#333', '#3d3d3d'],
+        fontColor: '#fff'
     },
     {
         /* mad */
         moods: ['mad', 'absurd', 'angry', 'delirious', 'demented', 'frantic', 'frenzied', 'psychotic', 'pissed', 'crazed', 'mental', 'rabid', 'unhinged', 'unreasonable', 'unstable'],
-        colors: ['red']
+        colors: ['#f00', '#e00000', '#b80000', '#f81200', '#ff0013', '#ff1300', '#b30000', '#c00'],
+        fontColor: '#fff'
     },
     {
         /* silly */
@@ -68,7 +72,12 @@ var moodsArray = [
     },
     {
         /* sexy */
-        moods: ['sexy', 'hot', 'cute', 'provocative', 'inviting', 'racy', 'seductive', 'sensual', 'sensuous', 'arousing', 'cuddly', 'flirty', 'flirtatious', 'flirt', 'risque', 'steamy', 'titillating', 'voluptuous'],
+        moods: ['sexy', 'hot', 'cute', 'provocative', 'inviting', 'racy', 'seductive', 'sensual', 'sensuous', 'arousing', 'cuddly', 'flirty', 'flirtatious', 'flirt', 'risque', 'steamy', 'titillating', 'voluptuous', 'erotic'],
         colors: ['pink']
+    },
+    {
+        /* unattractive */
+        moods: ['unattractive', 'disgusting', 'repugnant', 'repulsive', 'unappealing', 'bad-looking', 'beastly', 'deformed', 'disfigured', 'gross', 'grotesque', 'hideous', 'horrid', 'monstrous', 'unalluring'],
+        colors: ['browns']
     }
 ];
