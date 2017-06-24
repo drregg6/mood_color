@@ -1,24 +1,18 @@
 /*
 
-array of moods and colors associated with moods
-have a set amount of color options
-if the mood is not found, return white
-
+array of moods and colors
 
 :: idea when using mongodb ::
 maybe have a button to click
     if the mood is not found
         update the db with that feeling
-        
-maybe find a list of moods
-or positive / negative connotated words
 
 */
 
 var moodsArray = [
     {
         /* happy */
-        moods: ['happy', 'cheerful', 'peaceful', 'delighted', 'ecstatic', 'elated', 'lively', 'jubilant', 'merry', 'thrilled', 'optimistic', 'upbeat', 'joyous', 'joyful', 'glad', 'gay', 'content', 'blissful'],
+        moods: ['happy', 'cheerful', 'peaceful', 'delighted', 'ecstatic', 'elated', 'lively', 'jubilant', 'merry', 'thrilled', 'optimistic', 'upbeat', 'joyous', 'joyful', 'glad', 'gay', 'content', 'blissful', 'cheery'],
         colors: ['#ff0', '#ff1', '#b6ff19', '#ff3', '#ecff06', '#ff5', '#f2f20d', '#ffff1f', '#ecff00', '#ffec00', '#ffd900', '#ffff85'],
         fontColor: '#080808'
     },
@@ -36,7 +30,7 @@ var moodsArray = [
     },
     {
         /* mad */
-        moods: ['mad', 'absurd', 'angry', 'delirious', 'demented', 'frantic', 'frenzied', 'psychotic', 'pissed', 'crazed', 'mental', 'rabid', 'unhinged', 'unreasonable', 'unstable', 'upset'],
+        moods: ['mad', 'absurd', 'angry', 'delirious', 'demented', 'frantic', 'frenzied', 'psychotic', 'pissed', 'crazed', 'mental', 'rabid', 'unhinged', 'unreasonable', 'unstable', 'upset', 'irritated'],
         colors: ['#f00', '#e00000', '#b80000', '#f81200', '#ff0013', '#ff1300', '#b30000', '#c00'],
         fontColor: '#fff'
     },
@@ -78,7 +72,7 @@ var moodsArray = [
     },
     {
         /* sexy */
-        moods: ['sexy', 'hot', 'cute', 'provocative', 'inviting', 'racy', 'seductive', 'sensual', 'sensuous', 'arousing', 'cuddly', 'flirty', 'flirtatious', 'flirt', 'risque', 'steamy', 'titillating', 'voluptuous', 'erotic'],
+        moods: ['sexy', 'hot', 'cute', 'provocative', 'inviting', 'racy', 'seductive', 'sensual', 'sensuous', 'arousing', 'cuddly', 'flirty', 'flirtatious', 'flirt', 'risque', 'steamy', 'titillating', 'voluptuous', 'erotic', 'gorgeous', 'beautiful'],
         colors: ['#ff0091', '#ff33a7', '#ff5cb8', '#ff0091', '#ff1c7c', '#ff007d', '#ff006a', '#ff00ca'],
         fontColor: '#000'
     },
