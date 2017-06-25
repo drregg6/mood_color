@@ -1,8 +1,9 @@
-var input, container, val, randomNum, body, flag, allColors, target;
+var input, container, val, randomColor, randomMessage, body, flag, allColors, target, message;
 
 input = document.getElementById('input');
 container = document.getElementsByClassName('container')[0];
 body = document.getElementsByTagName('body')[0];
+message = document.getElementsByTagName('p')[0];
 
 
 
@@ -34,9 +35,14 @@ function moodFound() {
             flag = true;
             console.log('Found!');
 
-            randomNum = Math.floor(Math.random() * object.colors.length);
-            body.style.backgroundColor = object.colors[randomNum];
+            randomColor = Math.floor(Math.random() * object.colors.length);
+            body.style.backgroundColor = object.colors[randomColor];
             input.style.color = object.fontColor;
+            
+            randomMessage = Math.floor(Math.random() * object.messages.length);
+            message.classList.remove('hidden');
+            message.style.color = object.fontColor;
+            message.innerText = object.messages[randomMessage];
         }
     });
 }
@@ -45,8 +51,10 @@ function moodFound() {
 function moodNotFound() {
     allColors = moodsArray[0].colors.concat(moodsArray[1].colors, moodsArray[2].colors, moodsArray[3].colors, moodsArray[4].colors, moodsArray[5].colors, moodsArray[6].colors, moodsArray[7].colors, moodsArray[8].colors, moodsArray[9].colors, moodsArray[10].colors, moodsArray[11].colors);
     
-    randomNum = Math.floor(Math.random() * allColors.length);
+    randomColor = Math.floor(Math.random() * allColors.length);
     
-    body.style.backgroundColor = allColors[randomNum];
+    body.style.backgroundColor = allColors[randomColor];
     input.style.color = 'rgba(0,0,0,0.5)';
+    message.classList.add('hidden');
+    message.innerText = '';
 }
