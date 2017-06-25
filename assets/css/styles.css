@@ -75,6 +75,7 @@ input[type=text] {
     color: rgba(0,0,0,0.5);
     background: transparent;
     font-size: 20px;
+    line-height: 250px;
     
 /*
     position: absolute;

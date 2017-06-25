@@ -39,10 +39,13 @@ function moodFound() {
             body.style.backgroundColor = object.colors[randomColor];
             input.style.color = object.fontColor;
             
-            randomMessage = Math.floor(Math.random() * object.messages.length);
-            message.classList.remove('hidden');
-            message.style.color = object.fontColor;
-            message.innerText = object.messages[randomMessage];
+            // i want the message to fade in slower than the color
+            // i can't achieve this without jQ
+            
+            // randomMessage = Math.floor(Math.random() * object.messages.length);
+            // message.classList.remove('hidden');
+            // message.style.color = object.fontColor;
+            // message.innerText = object.messages[randomMessage];
         }
     });
 }
@@ -55,6 +58,6 @@ function moodNotFound() {
     
     body.style.backgroundColor = allColors[randomColor];
     input.style.color = 'rgba(0,0,0,0.5)';
-    message.classList.add('hidden');
-    message.innerText = '';
+    // message.classList.add('hidden');
+    // message.innerText = '';
 }

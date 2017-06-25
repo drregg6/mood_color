@@ -1,6 +1,6 @@
 /*
 
-array of moods and colors
+array of moods, colors, and messages
 
 :: idea when using mongodb ::
 maybe have a button to click
@@ -47,7 +47,7 @@ var moodsArray = [
     },
     {
         /* mysterious */
-        moods: ['dark', 'curious', 'strange', 'unknown', 'weird', 'mystifying', 'perplexing', 'enigmatic', 'enigma', 'cryptic', 'perplexing', 'obscure', 'secretive', 'difficult', 'covert', 'arcane', 'hidden'],
+        moods: ['mysterious', 'dark', 'curious', 'strange', 'unknown', 'weird', 'mystifying', 'perplexing', 'enigmatic', 'enigma', 'cryptic', 'perplexing', 'obscure', 'secretive', 'difficult', 'covert', 'arcane', 'hidden', 'spooky'],
         colors: ['#092e35', '#053b02', '#0d214a', '#190047', '#802600', '#4e0052', '#85004b'],
         messages: ['You are sooooo cool', 'People just don\'t get you.', 'Shrouded in myst...', 'E. Nygma ain\'t got nothin\' on you.', 'Weirdo!', 'Freak!', 'Are you part of Cicada 3301?', 'We should join a cult!', 'Let\'s make up a religion!'],
         fontColor: '#fff'
